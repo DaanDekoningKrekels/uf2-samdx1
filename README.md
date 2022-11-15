@@ -137,6 +137,12 @@ be overwritten with `0xff`. This also means that after fresh flashing of bootloa
 no double-tap reset is necessary, as the bootloader will not try to start application
 at `0xffffffff`.
 
+>Requirements installeren:
+>- `sudo apt-get install gcc-arm-none-eabi`
+>- `sudo apt install openocd`
+
+
+
 ### Build commands
 
 The default board is `zero`. You can build a different one using:
@@ -160,6 +166,10 @@ Typically, you will do:
 ```
 make r
 ```
+
+>Dit gaf mij volgende error: "section .binfo LMA [0000000000001ff0,0000000000001fff] overlaps section .relocate LMA"
+>[Verkeerde versie van arm-none-eabi-gcc?](https://github.com/microsoft/uf2-samdx1/issues/50#issue-337243435)
+>Oude versie van [hier](https://developer.arm.com/downloads/-/gnu-rm) [direct](https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/7-2017q4/gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2) gehaald en [zo](https://lindevs.com/install-arm-gnu-toolchain-on-ubuntu) geinstalleerd.
 
 ### Configuration
 
