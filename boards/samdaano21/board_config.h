@@ -1,3 +1,4 @@
+// https://www.hackster.io/wallarug/uf2-bootloader-creating-custom-boards-c9620c
 #ifndef BOARD_CONFIG_H
 #define BOARD_CONFIG_H
 
@@ -5,7 +6,7 @@
 #define PRODUCT_NAME "SAMDaaNo21"
 #define VOLUME_LABEL "SAMDaaNo21"
 #define INDEX_URL "https://dacetylan.github.io/FLWSB/#/"
-#define BOARD_ID "SAMD21G18A-SAMDaaNo21-V1"
+#define BOARD_ID "SAMD21G16B-SAMDaaNo21-V1"
 
 // Algemene USB configuratie
 #define USB_VID 0x03EB // Atmel

@@ -169,7 +169,7 @@ make r
 
 >Dit gaf mij volgende error: "section .binfo LMA [0000000000001ff0,0000000000001fff] overlaps section .relocate LMA"
 >[Verkeerde versie van arm-none-eabi-gcc?](https://github.com/microsoft/uf2-samdx1/issues/50#issue-337243435)
->Oude versie van [hier](https://developer.arm.com/downloads/-/gnu-rm) [direct](https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/7-2017q4/gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2) gehaald en [zo](https://lindevs.com/install-arm-gnu-toolchain-on-ubuntu) geinstalleerd.
+>Oude versie van [hier](https://developer.arm.com/downloads/-/gnu-rm) ([direct](https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/7-2017q4/gcc-arm-none-eabi-7-2017-q4-major-linux.tar.bz2)) gehaald en [zo](https://lindevs.com/install-arm-gnu-toolchain-on-ubuntu) geinstalleerd.
 
 ### Configuration
 
